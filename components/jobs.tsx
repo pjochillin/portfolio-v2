@@ -7,9 +7,10 @@ const satoshi = localFont({
 
 export default function jobs() {
     return (
-        <div className={`${satoshi.className} h-[75vh] bg-white flex justify-center`}>
-            <div className="flex flex-col space-y-18">
-                <h1 className="text-5xl text-black font-bold mt-24 self-center">Highlighted Experience</h1>
+        <div className={`${satoshi.className} bg-white flex justify-center relative`}>
+            <div className="absolute left-12 top-8 bottom-8 w-2 bg-black rounded-full"></div>
+            <div className="flex flex-col space-y-18 my-24">
+                <h1 className="text-5xl text-black font-bold self-center">Highlighted Experience</h1>
                 <div className="flex justify-around space-x-24">
                     <div className="flex flex-col items-center space-y-0.5">
                         <Image
