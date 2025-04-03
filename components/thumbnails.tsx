@@ -7,7 +7,7 @@ export default function thumbnails() {
                 <a href="/brahms-cello-sonata-1.m4a" target="_blank">
                     <Image
                         src="/cello-3.png"
-                        alt="Cello"
+                        alt="Cello 3"
                         width={800}
                         height={1200}
                         className="h-auto w-full object-cover object-top rounded-xl"
@@ -19,7 +19,7 @@ export default function thumbnails() {
                 <a href="https://youtu.be/-Sux4OGaQek" target="_blank">
                     <Image
                         src="/cello-2.png"
-                        alt="Cello"
+                        alt="Cello 2"
                         width={800}
                         height={1200}
                         className="h-auto w-full object-cover object-top rounded-xl"
@@ -31,7 +31,7 @@ export default function thumbnails() {
                 <a href="https://youtu.be/NZ7Zypkejeos" target="_blank">
                     <Image
                         src="/cello-1.png"
-                        alt="Cello"
+                        alt="Cello 1"
                         width={800}
                         height={1200}
                         className="h-auto w-full object-cover object-top rounded-xl"
