@@ -7,20 +7,22 @@ const satoshi = localFont({
 
 export default function intro() {
     return (
-    <div className={`${satoshi.className} flex justify-center bg-gradient-to-b from-white to-[#1f202a] h-screen overflow-hidden relative rounded-b-3xl`}>
-        <a href="/" className="absolute top-4 left-12 text-2xl font-bold text-black z-10">Josh Ochalek</a>
-        <div className="absolute top-4 right-12 flex space-x-4">
-            <a href="https://www.linkedin.com/in/joshua-ochalek/" target="_blank" className="text-2xl font-bold text-black">LinkedIn</a>
+    <div className={`${satoshi.className} flex justify-center bg-gradient-to-b from-white to-[#1f202a] h-auto min-[550px]:h-screen overflow-hidden relative rounded-b-3xl`}>
+        <a href="/" className="absolute top-4 left-6 min-[500px]:left-12 text-xl min-[1000px]:text-2xl font-bold text-black z-10">Josh Ochalek</a>
+        <div className="absolute top-4 right-6 min-[500px]:right-12 flex space-x-4 z-10">
+            <a href="https://www.linkedin.com/in/joshua-ochalek/" target="_blank" className="text-xl min-[1000px]:text-2xl font-bold text-black">LinkedIn</a>
         </div>
-        <div className="absolute top-1/3 left-12 text-black">
-            <h1 className="text-6xl font-semibold">Inspiring</h1>
-            <h1 className="text-6xl font-semibold">Change</h1>
-            <h1 className="text-6xl font-semibold">Everyday</h1>
+        <div className="hidden min-[750px]:block absolute top-1/3 left-12 text-black text-5xl min-[1000px]:text-6xl font-semibold z-10">
+            <h1 className="">Inspiring</h1>
+            <h1 className="">Change</h1>
+            <h1 className="">Everyday</h1>
         </div>
-        <div className="absolute top-1/3 left-2/3 text-black z-10">
-            <h1 className="text-xl font-normal max-w-4/5">A university student aspiring to be an innovator and mentor, someone who motivates others while creating the technology of the future.</h1>
+        <div className="hidden min-[750px]:block absolute top-1/3 right-12 z-10 max-w-[25%] min-[1000px]:right-0 min-[1000px]:left-2/3 min-[1000px]:max-w-[25%]">
+            <h1 className="text-xl font-normal">
+                A university student aspiring to be an innovator and mentor, someone who motivates others while creating the technology of the future.
+            </h1>
         </div>
-        <div className="relative w-[55%] h-full">
+        <div className="hidden min-[800px]:block relative w-[200%] min-[800px]:w-full min-[1000px]:w-[70%] min-[1450px]:w-[55%] h-full">
             <Image
                 src="/Headshot_BG.PNG"
                 alt="Headshot"
@@ -31,6 +33,15 @@ export default function intro() {
                 }}
                 priority
             />
+        </div>
+        <div className="relative max-[600px]:pt-14 min-[800px]:hidden h-screen overflow-hidden flex justify-center items-start w-screen">
+            <div className="w-[200%] flex justify-center">
+                <img
+                src="/Headshot_BG.PNG"
+                alt="Headshot"
+                className="h-full object-cover object-top scale-[2] min-[450px]:scale-[1.5] min-[600px]:scale-[1.2] origin-top"
+                />
+            </div>
         </div>
     </div>
     )
