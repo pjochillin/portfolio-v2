@@ -9,17 +9,17 @@ const satoshi = localFont({
 export default function intro() {
     return (
     <div className={`${satoshi.className} flex justify-center bg-gradient-to-b from-white to-[#1f202a] h-auto min-[550px]:h-screen overflow-hidden relative rounded-b-3xl`}>
-        <Link href="/" className="absolute top-4 left-6 min-[500px]:left-12 text-xl min-[1000px]:text-2xl font-bold text-black z-10">Josh Ochalek</Link>
+        <Link href="/" className="absolute top-4 left-6 min-[500px]:left-12 text-xl min-[1000px]:text-2xl font-bold text-black dark:text-black z-10">Josh Ochalek</Link>
         <div className="absolute top-4 right-6 min-[500px]:right-12 flex space-x-4 z-10">
-            <a href="https://www.linkedin.com/in/joshua-ochalek/" target="_blank" className="text-xl min-[1000px]:text-2xl font-bold text-black">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/joshua-ochalek/" target="_blank" className="text-xl min-[1000px]:text-2xl font-bold text-black dark:text-black">LinkedIn</a>
         </div>
-        <div className="hidden min-[750px]:block absolute top-1/3 left-12 text-black text-5xl min-[1000px]:text-6xl font-semibold z-10">
+        <div className="hidden min-[750px]:block absolute top-1/3 left-12 text-black dark:text-black text-5xl min-[1000px]:text-6xl font-semibold z-10">
             <h1 className="">Inspiring</h1>
             <h1 className="">Change</h1>
             <h1 className="">Everyday</h1>
         </div>
         <div className="hidden min-[750px]:block absolute top-1/3 right-12 z-10 max-w-[25%] min-[1000px]:right-0 min-[1000px]:left-2/3 min-[1000px]:max-w-[25%]">
-            <h1 className="text-xl font-normal">
+            <h1 className="text-xl font-normal text-black dark:text-black">
                 A university student aspiring to be an innovator and mentor, someone who motivates others while creating the technology of the future.
             </h1>
         </div>
