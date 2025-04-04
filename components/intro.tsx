@@ -43,6 +43,7 @@ export default function intro() {
                     height={1200}
                     width={1800}
                     className="h-full object-cover object-top scale-[2] min-[450px]:scale-[1.5] min-[600px]:scale-[1.2] origin-top"
+                    priority
                 />
             </div>
         </div>
