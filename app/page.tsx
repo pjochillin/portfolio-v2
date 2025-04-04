@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Josh Ochalek's Portfolio</title>
+        <title>Josh Ochalek&apos;s Portfolio</title>
         <meta 
           name="description"
           content="Hello! I'm Josh, a student at Cornell University. Check out my portfolio!"
