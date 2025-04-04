@@ -24,7 +24,7 @@ export default function cello() {
                     />
                     <p className="">
                         Throughout my time at Cornell University and before, playing the cello has been an important, yet soothing hobby of mine. 
-                        Most recently, I have been involved in various chamber groups, orchestras, and Cornell's Cello Ensemble, in addition to Cornell's Early Music 
+                        Most recently, I have been involved in various chamber groups, orchestras, and Cornell&apos;s Cello Ensemble, in addition to Cornell&apos;s Early Music 
                         Lab and being a concert cellist. I have most recently studied under John Haines-Eitzen and Jisoo Ok. Here are some recordings of my playing:
                     </p>
                     <div className="hidden min-[1000px]:block">

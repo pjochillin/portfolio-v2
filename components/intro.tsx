@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import localFont from "next/font/local"
 
 const satoshi = localFont({
@@ -8,7 +9,7 @@ const satoshi = localFont({
 export default function intro() {
     return (
     <div className={`${satoshi.className} flex justify-center bg-gradient-to-b from-white to-[#1f202a] h-auto min-[550px]:h-screen overflow-hidden relative rounded-b-3xl`}>
-        <a href="/" className="absolute top-4 left-6 min-[500px]:left-12 text-xl min-[1000px]:text-2xl font-bold text-black z-10">Josh Ochalek</a>
+        <Link href="/" className="absolute top-4 left-6 min-[500px]:left-12 text-xl min-[1000px]:text-2xl font-bold text-black z-10">Josh Ochalek</Link>
         <div className="absolute top-4 right-6 min-[500px]:right-12 flex space-x-4 z-10">
             <a href="https://www.linkedin.com/in/joshua-ochalek/" target="_blank" className="text-xl min-[1000px]:text-2xl font-bold text-black">LinkedIn</a>
         </div>
@@ -36,10 +37,12 @@ export default function intro() {
         </div>
         <div className="relative max-[600px]:pt-14 min-[800px]:hidden h-screen overflow-hidden flex justify-center items-start w-screen">
             <div className="w-[200%] flex justify-center">
-                <img
-                src="/Headshot_BG.PNG"
-                alt="Headshot"
-                className="h-full object-cover object-top scale-[2] min-[450px]:scale-[1.5] min-[600px]:scale-[1.2] origin-top"
+                <Image
+                    src="/Headshot_BG.PNG"
+                    alt="Headshot"
+                    height={1200}
+                    width={1800}
+                    className="h-full object-cover object-top scale-[2] min-[450px]:scale-[1.5] min-[600px]:scale-[1.2] origin-top"
                 />
             </div>
         </div>
