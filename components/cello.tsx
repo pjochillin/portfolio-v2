@@ -12,7 +12,7 @@ export default function cello() {
         <div className="bg-[linear-gradient(to_bottom,_white_0%,_white_55%,_#1f202a_100%)]">
             <div className={`${satoshi.className} flex flex-row items-center relative`}>
                 <div className="absolute right-12 h-full hidden min-[1200px]:block w-2 bg-black rounded-full"></div>
-                <div className="min-[650px]:basis-1/2 space-y-15 ml-6 min-[500px]:ml-12">
+                <div className="min-[650px]:basis-1/2 space-y-15 ml-6 min-[500px]:ml-12 text-black dark:text-black">
                     <h1 className="font-bold text-3xl min-[450px]:text-4xl min-[805px]:text-5xl">Playing the Cello</h1>
                     <Image
                         src="/cello-thumbnail.png"
