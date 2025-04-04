@@ -25,7 +25,7 @@ export default function intro() {
         </div>
         <div className="hidden min-[800px]:block relative w-[200%] min-[800px]:w-full min-[1000px]:w-[70%] min-[1450px]:w-[55%] h-full">
             <Image
-                src="/Headshot_BG.PNG"
+                src="/Headshot_BG.png"
                 alt="Headshot"
                 fill
                 style={{
@@ -38,7 +38,7 @@ export default function intro() {
         <div className="relative max-[600px]:pt-14 min-[800px]:hidden h-screen overflow-hidden flex justify-center items-start w-screen">
             <div className="w-[200%] flex justify-center">
                 <Image
-                    src="/Headshot_BG.PNG"
+                    src="/Headshot_BG.png"
                     alt="Headshot"
                     height={1200}
                     width={1800}
